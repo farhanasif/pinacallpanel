@@ -16,7 +16,7 @@
 
                         <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
                             
-                        <form action="{{route('user.login')}}" method="post" id="loginform" class="form-horizontal" role="form">
+                        <form action="{{route('login')}}" method="post" id="loginform" class="form-horizontal" role="form">
                             @csrf
                                     
                             <div style="margin-bottom: 25px" class="input-group">
@@ -36,18 +36,12 @@
                                         </label>
                                       </div>
                                     </div>
-
-
                                 <div style="margin-top:10px" class="form-group">
                                     <!-- Button -->
-
                                     <div class="col-sm-12 controls">
                                       <button type="submit" class="btn btn-block btn-primary">Submit</button>
-                                
-
                                     </div>
                                 </div>
-
 
                                 <div class="form-group">
                                     <div class="col-md-12 control">
